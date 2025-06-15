@@ -1,0 +1,35 @@
+# Python cache and virtual envs
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+.env
+env/
+venv/
+.venv/
+
+# VS Code settings
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs and temp files
+*.log
+logs/
+*.wav
+*.mp4
+*.tmp
+
+# Docker artifacts
+*.tar
+*.container
+
+# Secrets
+.env
+.env.*
+
+# Ignore pip metadata if used locally
+pip-wheel-metadata/
