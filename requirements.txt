@@ -3,6 +3,7 @@ uvicorn
 python-multipart
 openai
 python-dotenv
-PyMuPDF
-ffmpeg-python
 yt_dlp
+moviepy
+ffmpeg-python
+whisper
