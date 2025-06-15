@@ -1,6 +1,7 @@
 FROM python:3.10-slim
 
-RUN apt-get update && apt-get install -y ffmpeg && apt-get clean
+# 🔧 Add this line to install git and ffmpeg
+RUN apt-get update && apt-get install -y git ffmpeg && apt-get clean
 
 WORKDIR /app
 
