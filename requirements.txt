@@ -6,4 +6,5 @@ python-dotenv
 yt_dlp
 moviepy
 ffmpeg-python
-whisper
+git+https://github.com/openai/whisper.git
+
